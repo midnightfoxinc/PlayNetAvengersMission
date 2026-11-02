@@ -1,7 +1,7 @@
 # AvengersNet Offline Client
 
 This repository documents the reverse-engineering work for **Marvel Playmation AvengersNet**
-(`com.disney.playmationavengersnet_goo`, version 1.3.1), an Android app used with the
+(`com.disney.playmationavengersnet_goo`), an Android app used with the
 Marvel Playmation Avengers smart-toy and wearable interactive entertainment system.
 
 ## Free the Device Campaign
