@@ -9,7 +9,7 @@ Marvel Playmation Avengers smart-toy and wearable interactive entertainment syst
 This project is part of the **Free the Device** campaign.
 
 Disney decommissioned Playmation, pulled the app from the Play Store / App Store, and left
-owners unable to use the physical gear they purchased. This project preserves the ability
+your kids unable to use the physical gear they purchased. This project preserves the ability
 to play locally, scan gear, and progress missions without relying on Disney's
 now-unavailable cloud services, login screens, or support infrastructure.
 
