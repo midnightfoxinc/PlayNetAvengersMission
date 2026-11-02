@@ -69,20 +69,20 @@ See the commands below for rebuild and install.
 ## Rebuild Commands
 
 ```sh
-cd /mnt/storage/Projects/Avengernet/decoded
-/home/max/.local/bin/apktool b . -o /mnt/storage/Projects/Avengernet/AvengersNet_offline_unsigned.apk
-export PATH=/home/max/Android/Sdk/build-tools/35.0.0:$PATH
-zipalign -p 4 -f /mnt/storage/Projects/Avengernet/AvengersNet_offline_unsigned.apk /mnt/storage/Projects/Avengernet/AvengersNet_offline_aligned.apk
-apksigner sign --ks /mnt/storage/Projects/Avengernet/avengernet.keystore \
+cd ~/decoded
+~/Avengernet/AvengersNet_offline_unsigned.apk
+export PATH=~/Android/Sdk/build-tools/35.0.0:$PATH
+zipalign -p 4 -f ~/AvengersNet_offline_unsigned.apk ~/AvengersNet_offline_aligned.apk
+apksigner sign --ks ~/avengernet.keystore \
   --ks-pass pass:avengernet --key-pass pass:avengernet \
-  /mnt/storage/Projects/Avengernet/AvengersNet_offline_aligned.apk
+  ~/AvengersNet_offline_aligned.apk
 ```
 
 ## Install On Device
 
 ```sh
-export PATH=/home/max/Android/Sdk/platform-tools:$PATH
-adb install -r -d /mnt/storage/Projects/Avengernet/AvengersNet_offline_aligned.apk
+export PATH=~/Android/Sdk/platform-tools:$PATH
+adb install -r -d ~/AvengersNet_offline_aligned.apk
 ```
 
 ## Verify
