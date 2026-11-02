@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="client_id_array">
+        <item>DISNEYID-AND.WEBDF.DEMO</item>
+        <item>DISNEYID-AND.WEBDF.ADULT</item>
+        <item>DISNEYID-AND.WEBDF.STD</item>
+        <item>DISNEYID-AND.WEBDF.1CLK</item>
+        <item>DTSS-DEV.ESPN.WEB</item>
+    </string-array>
+    <string-array name="env_array">
+        <item>PROD</item>
+        <item>DARK</item>
+        <item>STG</item>
+        <item>STG.DARK</item>
+        <item>QA</item>
+        <item>DEV</item>
+    </string-array>
+</resources>

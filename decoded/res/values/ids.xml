@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id name="hybrid" />
+    <id name="none" />
+    <id name="normal" />
+    <id name="satellite" />
+    <id name="terrain" />
+    <id name="did_background" />
+    <id name="did_webview_group" />
+    <id name="did_progress_bar" />
+</resources>

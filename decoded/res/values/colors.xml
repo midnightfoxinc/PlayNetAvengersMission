@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="background_color">#ff131f42</color>
+    <color name="black">#000</color>
+    <color name="blue">#00a1cf</color>
+    <color name="blue_selected">#3f6dac</color>
+    <color name="content">#f7f7f7</color>
+    <color name="content_boarder">#eee</color>
+    <color name="did_background_color">#e6131f42</color>
+    <color name="facebook_button_normal">#3c5998</color>
+    <color name="facebook_button_pressed">#324a80</color>
+    <color name="google_button_normal">#df4a32</color>
+    <color name="google_button_pressed">#d03324</color>
+    <color name="grey">#d3d3d3</color>
+    <color name="header_text">#014f93</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff</color>
+</resources>

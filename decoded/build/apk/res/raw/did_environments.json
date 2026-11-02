@@ -1,0 +1,99 @@
+{ "environments" :
+        [
+          {
+            "name" : "prod",
+            "debugAllowed" : "false",
+            "cssPostfixMapping" : "prod",
+            "coreServicesEnvironment" : "PROD",
+            "lightBoxConfig" : {
+              "baseURL" : "https://cdn.registerdisney.go.com",
+              "configEnvironment" : "prod",
+              "contentEnvironment" : "prod",
+              "localizationEnvironment" : "prod"
+            },
+            "guestControllerConfig" : {
+              "baseURL" : "https://registerdisney.go.com"
+            }
+          },
+
+          {
+            "name" : "dark",
+            "debugAllowed" : "false",
+            "cssPostfixMapping" : "prod",
+            "coreServicesEnvironment" : "PROD_DARK",
+            "lightBoxConfig" : {
+              "baseURL" : "https://ui-prod-dark.registerdisney.go.com",
+              "configEnvironment" : "dark",
+              "contentEnvironment" : "prod-dark",
+              "localizationEnvironment" : "stg"
+            },
+            "guestControllerConfig" : {
+              "baseURL" : "https://dark.registerdisney.go.com"
+            }
+          },
+
+          {
+            "name" : "stg",
+            "debugAllowed" : "true",
+            "cssPostfixMapping" : "stg",
+            "coreServicesEnvironment" : "STAGE",
+            "lightBoxConfig" : {
+              "baseURL" : "https://stg.cdn.registerdisney.go.com",
+              "configEnvironment" : "stg",
+              "contentEnvironment" : "stg",
+              "localizationEnvironment" : "stg"
+            },
+            "guestControllerConfig" : {
+              "baseURL" : "https://stg.registerdisney.go.com"
+            }
+          },
+
+          {
+            "name" : "stg.dark",
+            "debugAllowed" : "true",
+            "cssPostfixMapping" : "stg",
+            "coreServicesEnvironment" : "STAGE",
+            "lightBoxConfig" : {
+              "baseURL" : "https://ui-stg.dark.registerdisney.go.com",
+              "configEnvironment" : "stg",
+              "contentEnvironment" : "stg-dark",
+              "localizationEnvironment" : "stg"
+            },
+            "guestControllerConfig" : {
+              "baseURL" : "https://stg.dark.registerdisney.go.com"
+            }
+          },
+
+          {
+            "name" : "qa",
+            "debugAllowed" : "true",
+            "cssPostfixMapping" : "qa",
+            "coreServicesEnvironment" : "QA",
+            "lightBoxConfig" : {
+              "baseURL" : "https://ui-qa.registerdisney.go.com",
+              "configEnvironment" : "qa",
+              "contentEnvironment" : "qa",
+              "localizationEnvironment" : "stg"
+            },
+            "guestControllerConfig" : {
+              "baseURL" : "https://qa.registerdisney.go.com"
+            }
+          },
+
+          {
+            "name" : "dev",
+            "debugAllowed" : "true",
+            "cssPostfixMapping" : "dev",
+            "coreServicesEnvironment" : "QA",
+            "lightBoxConfig" : {
+              "baseURL" : "http://oneid-web-mobile-int.cloud.corp.dig.com",
+              "configEnvironment" : "qa",
+              "contentEnvironment" : "qa",
+              "localizationEnvironment" : "stg"
+            },
+            "guestControllerConfig" : {
+              "baseURL" : "https://qa.registerdisney.go.com"
+            }
+          }
+        ]
+}

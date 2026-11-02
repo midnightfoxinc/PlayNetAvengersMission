@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dp</dimen>
+    <dimen name="activity_vertical_margin">16.0dp</dimen>
+    <dimen name="button_padding">10.0dp</dimen>
+    <dimen name="button_radius">4.0dp</dimen>
+    <dimen name="button_width">105.0dp</dimen>
+    <dimen name="common_layout_margin">10.0dp</dimen>
+    <dimen name="common_layout_padding">10.0dp</dimen>
+    <dimen name="content_margin">20.0dp</dimen>
+    <dimen name="content_radius">7.0dp</dimen>
+    <dimen name="header_padding">10.0dp</dimen>
+    <dimen name="label_margin">5.0dp</dimen>
+    <dimen name="logo_padding">10.0dp</dimen>
+</resources>

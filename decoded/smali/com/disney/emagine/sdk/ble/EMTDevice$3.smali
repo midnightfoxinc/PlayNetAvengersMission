@@ -1,0 +1,48 @@
+.class Lcom/disney/emagine/sdk/ble/EMTDevice$3;
+.super Ljava/util/TimerTask;
+.source "EMTDevice.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/disney/emagine/sdk/ble/EMTDevice;->setAckTimer()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/disney/emagine/sdk/ble/EMTDevice;
+
+
+# direct methods
+.method constructor <init>(Lcom/disney/emagine/sdk/ble/EMTDevice;)V
+    .locals 0
+    .param p1, "this$0"    # Lcom/disney/emagine/sdk/ble/EMTDevice;
+
+    .prologue
+    .line 1317
+    iput-object p1, p0, Lcom/disney/emagine/sdk/ble/EMTDevice$3;->this$0:Lcom/disney/emagine/sdk/ble/EMTDevice;
+
+    invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    .prologue
+    .line 1321
+    iget-object v0, p0, Lcom/disney/emagine/sdk/ble/EMTDevice$3;->this$0:Lcom/disney/emagine/sdk/ble/EMTDevice;
+
+    invoke-virtual {v0}, Lcom/disney/emagine/sdk/ble/EMTDevice;->ackTimeout()V
+
+    .line 1322
+    return-void
+.end method

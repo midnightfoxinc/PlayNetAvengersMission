@@ -1,0 +1,5 @@
+*.apk
+*.idsig
+*.keystore
+xapk_extracted/
+decoded/assets/

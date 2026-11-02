@@ -1,0 +1,24 @@
+﻿using System;
+
+// Token: 0x0200023E RID: 574
+public enum scavenger_hunt_types
+{
+	// Token: 0x0400101B RID: 4123
+	NONE,
+	// Token: 0x0400101C RID: 4124
+	VIEW_SCENE,
+	// Token: 0x0400101D RID: 4125
+	USE_ABILITY,
+	// Token: 0x0400101E RID: 4126
+	DESTROY_ENEMY,
+	// Token: 0x0400101F RID: 4127
+	VIEW_DATABASE_ENTRY,
+	// Token: 0x04001020 RID: 4128
+	VIEW_TIP,
+	// Token: 0x04001021 RID: 4129
+	VIEW_LOCATION,
+	// Token: 0x04001022 RID: 4130
+	VIEW_MISSION,
+	// Token: 0x04001023 RID: 4131
+	LISTEN_TO_PROMPT
+}

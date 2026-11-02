@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.disney.playmationavengersnet_goo" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false" android:xlargeScreens="true"/>
+    <application android:debuggable="false" android:icon="@drawable/app_icon" android:isGame="true" android:label="@string/app_name" android:name="com.disney.emagine.app.EmagineApplication" android:theme="@android:style/Theme.NoTitleBar">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.disney.emagine.app.plugin.PlayerActivity" android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+            <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true"/>
+            <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.disney.id.android.lightboxinteraction.DIDLightBoxActivity" android:theme="@style/DisneyIDTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.disney.id.android.guestcontrollerinteraction.DIDSocialRegistrationActivity" android:theme="@style/DisneyIDTheme"/>
+        <service android:name="com.disney.id.android.DIDService"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.prime31.EtceteraProxyActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.prime31.WebViewActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.prime31.P31VideoPlayerActivity"/>
+        <receiver android:name="com.prime31.AlarmManagerReceiver"/>
+        <meta-data android:name="com.prime31.EtceteraPlugin" android:value="UnityPlayerActivityProxy"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|layoutDirection" android:name="com.prime31.GoogleIABProxyActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.disney.id.android.webclient.PluginDelegate"/>
+        <meta-data android:name="did_css_override_url" android:value="https://dev2did.cloud.go.com/mobile/3.0/css/android.css"/>
+        <meta-data android:name="did_css_override_prod" android:value="https://dev2did.cloud.go.com/mobile/3.0/css/android.css"/>
+        <meta-data android:name="did_css_override_stg" android:value="https://dev2did.cloud.go.com/mobile/3.0/css/android.css"/>
+        <meta-data android:name="did_css_override_qa" android:value="https://dev2did.cloud.go.com/mobile/3.0/css/android.css"/>
+        <meta-data android:name="did_css_override_dev" android:value="https://dev2did.cloud.go.com/mobile/3.0/css/android.css"/>
+    </application>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-feature android:glEsVersion="0x20000"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+</manifest>

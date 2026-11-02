@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" />
+    <style name="DisneyIDTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/did_background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="DisneyIDTheme.NoStatusBar" parent="@style/DisneyIDTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="UnityThemeSelector" parent="@android:style/Theme.NoTitleBar.Fullscreen" />
+</resources>
